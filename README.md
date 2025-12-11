@@ -1,7 +1,5 @@
 # Monitoring a Containerized URL Shortener Webservice
 
-### Google drive
-[Click here](https://drive.google.com/drive/folders/1wJkkQ3A33lgfeCDCFSlJgsg2EAZjByg7)
 
 ## 👥 Team Members
 
