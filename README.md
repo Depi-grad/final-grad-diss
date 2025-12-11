@@ -5,10 +5,10 @@
 
 ## 👥 Team Members
 
-- Youssef Reda Mohamed – **Team Leader**
-- Hager Salah El-Din Youssef
-- Sarah Ibrahim Abdallah
-- Ahmad Nasser Abdel Latif
+- Ziad Ahmed Attia Mohamed  **Team Leader**
+- Omar Samir Elmallah
+- Yasmeen Mohamed Talaat 
+- Mohamed Sabry Abdelrahim 
 
 
 ---
@@ -64,9 +64,9 @@ A webservice that allows users to shorten long URLs into short codes and handle 
 
 | Member                    | Role & Tasks                                                             |
 |---------------------------|--------------------------------------------------------------------------|
-| Youssef Reda Mohamed      | Coordination, Webservice backend, API development (Flask/Express), documentation                   |
-| Hager Salah El-Din Youssef|  Grafana, Advanced Visualization      |
-| Ahmad Nasser Abdel Latif  | Container setup, Dockerfile, docker-compose.yml                          |
-| Sarah Ibrahim Abdallah    | Prometheus metrics integration, persistence, documentation         |
+| Mohamed Sabry Abdelrahim  | Coordination, Webservice backend, API development (Flask/Express), documentation                   |
+|Yasmeen Mohamed Talaat     |  Grafana, Advanced Visualization      |
+| Ziad Ahmed Attia Mohamed  | Container setup, Dockerfile, docker-compose.yml                          |
+| Omar Samir Elmallah       | Prometheus metrics integration, persistence, documentation         |
 
 ---

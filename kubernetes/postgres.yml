@@ -8,18 +8,6 @@ data:
   POSTGRES_USER: dXJsc2hvcnRlbmVy
   POSTGRES_PASSWORD: dXJsc2hvcnRlbmVyMTIz
 ---
-apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: postgres-pvc
-  namespace: url-shortener
-spec:
-  accessModes:
-    - ReadWriteOnce
-  resources:
-    requests:
-      storage: 1Gi
----
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
@@ -64,14 +52,10 @@ spec:
             initialDelaySeconds: 30
             periodSeconds: 30
             timeoutSeconds: 5
-  volumeClaimTemplates:
-    - metadata:
-        name: postgres-storage
-      spec:
-        accessModes: [ "ReadWriteOnce" ]
-        resources:
-          requests:
-            storage: 1Gi
+
+      volumes:
+        - name: postgres-storage
+          emptyDir: {}
 ---
 apiVersion: v1
 kind: Service
@@ -85,3 +69,4 @@ spec:
     - protocol: TCP
       port: 5432
       targetPort: 5432
+
